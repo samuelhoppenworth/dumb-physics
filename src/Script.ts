@@ -19,7 +19,7 @@ let engine = new SimulatorEngine()
 
 engine.addItem(new Ball(createVector(150, 100), createVector(20, 0), 5, 5, "#FF0000"))
 engine.addItem(new Ball(createVector(200, 100), createVector(-20, 0), 5, 5, "#0000FF"))
-engine.gravity = false
+engine.gravity = true
 engine.attraction = false
 
 let renderer = new Renderer(engine, 2, createVector(-5, 210), canvas, ctx)

@@ -41,7 +41,7 @@ export class UIHandler {
     this.engine = engine;
     this.renderer = renderer;
     this.eventHandler = eventHandler;
-    this.playing = false;
+    this.playing = true;
     this.engineRepetitions = 1.00;
     this.queuedRepetitions = 1.00;
 
